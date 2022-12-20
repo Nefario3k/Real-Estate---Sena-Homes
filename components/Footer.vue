@@ -9,7 +9,7 @@
                 <v-img
                   contain
                   :width="width"
-                  src="/images/pngs/logo.png"
+                  src=./images/pngs/logo.png"
                 ></v-img>
               </nuxt-link>
             </div>
@@ -161,7 +161,7 @@ export default {
       #1c212b 65.88%,
       rgba(28, 33, 43, 0.37) 170.05%
     ),
-    url("/images/pngs/footer.png");
+    url(./images/pngs/footer.png");
   background-size: cover;
   position: relative;
 }

@@ -346,7 +346,7 @@
     /* about styles  */
     #choice {
         background: linear-gradient(91.33deg, rgba(28, 33, 43, 0.83) 48.29%, rgba(28, 33, 43, 0) 132.23%),
-            url("/images/pngs/whySena.png") !important;
+            url(./images/pngs/whySena.png") !important;
     }
 
     .contentChoice header {

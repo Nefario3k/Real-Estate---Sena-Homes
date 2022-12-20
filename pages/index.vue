@@ -286,7 +286,7 @@ export default {
       rgba(28, 33, 43, 0.7) 0%,
       rgba(28, 33, 43, 0.7) 20%
     ),
-    url("/images/pngs/hero-img.png");
+    url(./images/pngs/hero-img.png");
   background-size: cover;
   background-position: 100%;
 }
@@ -297,7 +297,7 @@ export default {
       rgba(28, 33, 43, 0.7) 0%,
       rgba(28, 33, 43, 0.7) 20%
     ),
-    url("/images/pngs/hero-img-2.png");
+    url(./images/pngs/hero-img-2.png");
   background-size: cover;
   animation-delay: 4s;
 }
@@ -308,7 +308,7 @@ export default {
       rgba(28, 33, 43, 0.7) 0%,
       rgba(28, 33, 43, 0.7) 20%
     ),
-    url("/images/pngs/hero-img-3.png");
+    url(./images/pngs/hero-img-3.png");
   background-size: cover;
   animation-delay: 8s;
 }

@@ -55,7 +55,7 @@
                       </div>
                       <!-- <img
                         :class="{ activeIcon: isActiveIndex == i }"
-                        src="/images/svg/circle-down.svg"
+                        src=./images/svg/circle-down.svg"
                         alt=""
                       /> -->
                     </template>

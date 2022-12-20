@@ -1,6 +1,6 @@
 <template>
   <div class="MSection">
-    <img src="/images/svg/spiral.svg" class="bgImg" alt="" />
+    <img src=./images/svg/spiral.svg" class="bgImg" alt="" />
     <v-container class="section">
       <v-row class="comfortRow">
         <div class="col-12 right md d-none text-center">
@@ -10,7 +10,7 @@
         <div class="col-12 col-lg-6 col-xl-6 left">
           <div class="img-frame">
             <div class="tilted-box">
-              <img src="/images/pngs/aboutWe.png" class="img" alt="" />
+              <img src=./images/pngs/aboutWe.png" class="img" alt="" />
             </div>
           </div>
         </div>
@@ -49,7 +49,7 @@ export default {};
 <style lang="scss" scoped>
 .MSection {
   position: relative;
-  // background-image: url("/images/svg/spiral.svg");
+  // background-image: url(./images/svg/spiral.svg");
   // background-position: top -10% right;
   background-color: #fff;
   overflow-y: hidden;

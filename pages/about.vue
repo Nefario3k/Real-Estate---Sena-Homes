@@ -77,7 +77,7 @@ export default {};
       rgba(28, 33, 43, 0.7) 0%,
       rgba(28, 33, 43, 0.7) 20%
     ),
-    url("/images/pngs/aboutHeader.png");
+    url(./images/pngs/aboutHeader.png");
   background-size: cover;
   width: 100%;
   min-height: 40rem;
@@ -119,7 +119,7 @@ export default {};
       rgba(28, 33, 43, 0.83) 45.03%,
       rgba(28, 33, 43, 0) 96.53%
     ),
-    url("/images/pngs/whySena.png");
+    url(./images/pngs/whySena.png");
   background-size: cover !important;
   text-align: center;
 }

@@ -424,8 +424,8 @@ export default {
 }
 
 #property_carousel_section {
-  background-image: url(/images/svg/geometry01.svg),
-    url(/images/svg/geometry02.svg);
+  background-image: url(./images/svg/geometry01.svg),
+    url(./images/svg/geometry02.svg);
   background-position: top right, bottom left;
   background-repeat: no-repeat;
   background-size: 25%;

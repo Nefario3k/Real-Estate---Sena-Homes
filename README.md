@@ -24,20 +24,19 @@ Users are able to:
 
 - View the optimal layout depending on their device's screen size
 - See hover states for interactive elements
-- Pseudo: {
-- Login,
-- Register,
-- Reset password,
-- Logout,
-- Like Properties
-- }
+- Pseudo:
+  - Login,
+  - Register,
+  - Reset password,
+  - Logout,
+  - Like Properties
 
 ### Screenshot
 
-![Desktop - Home](/images/pngs/screenshort/desktopH.png)
-![Mobile - Home](/images/pngs/screenshort/mobileH.png)
-![Desktop - Property](/images/pngs/screenshort/desktopP.png)
-![Mobile - Property](/images/pngs/screenshort/mobileP.png)
+![Desktop - Home](./static/images/pngs/screenshort/desktopH.png)
+![Mobile - Home](./static/images/pngs/screenshort/mobileH.png)
+![Desktop - Property](./static/images/pngs/screenshort/desktopP.png)
+![Mobile - Property](./static/images/pngs/screenshort/mobileP.png)
 
 ## My process
 

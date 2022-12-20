@@ -24,12 +24,12 @@ Users are able to:
 
 - View the optimal layout depending on their device's screen size
 - See hover states for interactive elements
-- Pseudo: {
+- Pseudo:
   - Login,
   - Register,
   - Reset password,
   - Logout,
-  - Like Properties }
+  - Like Properties
 
 ### Screenshot
 

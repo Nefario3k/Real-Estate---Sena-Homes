@@ -417,8 +417,8 @@ div.container {
 
 .valueSection {
   background-color: #f7f4f2;
-  background-image: url(./images/svg/arrowHead.svg"),
-    url(./images/pngs/dotted_bg2.png"), url(./images/pngs/dotted_bg2.png");
+  background-image: url("./images/svg/arrowHead.svg"),
+    url("./images/pngs/dotted_bg2.png"), url("./images/pngs/dotted_bg2.png");
   background-position: bottom center, top left, bottom right;
   overflow: hidden;
 
@@ -447,7 +447,7 @@ h4 {
   font-size: 4rem;
 }
 .team {
-  background-image: url(./images/pngs/dotted_bg.png");
+  background-image: url("./images/pngs/dotted_bg.png");
   background-position: bottom right;
   overflow: hidden;
   .teamContentwrapper {

@@ -24,7 +24,7 @@ export default {};
       rgba(28, 33, 43, 0.7) 0%,
       rgba(28, 33, 43, 0.7) 20%
     ),
-    url(./images/pngs/CTA.png") no-repeat;
+    url("./images/pngs/CTA.png") no-repeat;
   background-size: cover;
   background-color: var(--secondary-color);
   display: flex;
@@ -65,7 +65,7 @@ export default {};
   .section {
     width: 100%;
     height: 40rem;
-    background: url(./images/pngs/burj-khalifa.png") no-repeat;
+    background: url("./images/pngs/burj-khalifa.png") no-repeat;
     background-size: cover;
     background-position: bottom;
 

@@ -115,7 +115,7 @@
         </div>
         <!-- property large img  -->
         <div class="col-12 col-md-8 col-lg-8 col-xl-8 PropImgWrapper lg">
-          <!-- <img src=./images/pngs/largeProp.png" alt="" /> -->
+          <!-- <img src="./images/pngs/largeProp.png" alt="" /> -->
           <iframe
             src="https://www.youtube.com/embed/kdZYhfHYHtY?rel=0&showinfo=0&autohide=1&modestbranding=1"
             title="YouTube video player"
@@ -128,7 +128,11 @@
         <!-- property small img  -->
         <v-row class="col-12 col-md-4 col-lg-4 col-xl-4 PropImgWrapper srow">
           <div class="col-6 col-md-12 col-lg-12 col-xl-12 smallPropImgWrapper">
-            <img @click="showModal" src=./images/pngs/smallProp01.png" alt="" />
+            <img
+              @click="showModal"
+              src="./images/pngs/smallProp01.png"
+              alt=""
+            />
           </div>
           <div
             class="
@@ -138,7 +142,11 @@
               relative
             "
           >
-            <img @click="showModal" src=./images/pngs/smallProp02.png" alt="" />
+            <img
+              @click="showModal"
+              src="./images/pngs/smallProp02.png"
+              alt=""
+            />
             <v-btn @click="showModal" class="Btn viewMore">
               <svg
                 width="24"
@@ -1371,7 +1379,7 @@ input:focus + .placeholder {
       rgba(191, 144, 1, 0.1) 0%,
       rgba(191, 144, 1, 0.1) 20%
     ),
-    url(./images/pngs/mapStatic.png");
+    url("./images/pngs/mapStatic.png");
   background-size: cover;
   margin-top: 30px;
 }

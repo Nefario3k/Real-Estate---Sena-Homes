@@ -14,7 +14,7 @@
       <div class="topBarNav d-flex align-items-center">
         <div class="leftNav">
           <nuxt-link to="/" class="logo"
-            ><img src=./images/pngs/logo.png" alt=""
+            ><img src="./images/pngs/logo.png" alt=""
           /></nuxt-link>
           <nav>
             <ul>

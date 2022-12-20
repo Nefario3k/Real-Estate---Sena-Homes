@@ -13,13 +13,16 @@
           <div class="d-flex justify-center justify-md-start">
             <v-btn data-aos="fade-up" data-aos-duration="500" class="mr-4">
               <img
-                src=./images/svg/play-store.svg"
+                src="./images/svg/play-store.svg"
                 alt="sena homes play store"
               />
               <p>Get it on <span>Google Play</span></p>
             </v-btn>
             <v-btn data-aos="fade-up" data-aos-duration="500">
-              <img src=./images/svg/app-store.svg" alt="sena homes app store" />
+              <img
+                src="./images/svg/app-store.svg"
+                alt="sena homes app store"
+              />
               <p>Download on the <span>App Store</span></p>
             </v-btn>
           </div>
@@ -31,7 +34,7 @@
           class="hidden d-md-block pl-md-14 pl-lg-0 mt-auto"
         >
           <img
-            src=./images/pngs/mobile-apps.png"
+            src="./images/pngs/mobile-apps.png"
             alt="sena homes mobile apps"
             class="mobile-apps-img"
           />

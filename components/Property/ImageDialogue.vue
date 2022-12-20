@@ -133,11 +133,11 @@ export default {
       showModal: false,
       tab: 0,
       previewedImage: null,
-      media: [{ src: ./images/pngs/smallProp0" }],
+      media: [{ src: "./images/pngs/smallProp0" }],
     };
   },
   mounted() {
-    this.previewedImage = ./images/pngs/largeProp.png";
+    this.previewedImage = "./images/pngs/largeProp.png";
   },
   methods: {
     showImgModal() {
@@ -153,14 +153,15 @@ export default {
           if (this.tab === "" || this.tab === null || this.tab == 0) {
             return;
           } else {
-            this.previewedImage = ./images/pngs/smallProp0" + this.tab + ".png";
+            this.previewedImage =
+              "./images/pngs/smallProp0" + this.tab + ".png";
             this.tab = this.tab - 1;
           }
           break;
         case "next":
           var next = this.tab + 2;
           this.tab = this.tab + 1;
-          this.previewedImage = ./images/pngs/smallProp0" + next + ".png";
+          this.previewedImage = "./images/pngs/smallProp0" + next + ".png";
 
           break;
 
@@ -169,7 +170,7 @@ export default {
       }
     },
     preview(type) {
-      this.previewedImage = ./images/pngs/smallProp0" + type + ".png";
+      this.previewedImage = "./images/pngs/smallProp0" + type + ".png";
     },
   },
 };

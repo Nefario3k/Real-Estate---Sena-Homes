@@ -5,7 +5,7 @@
       <nuxt-link to="/property">
         <v-img
           height="250"
-          lazy-src=./images/pngs/broken-image.png"
+          lazy-src="./images/pngs/broken-image.png"
           :src="property.imgUrl"
           transition="slide-x-transition"
           :gradient="`rgba(32, 29, 29, 0.5), rgba(32, 29, 29, 0.15)`"
@@ -24,7 +24,7 @@
           :class="{ active: activeIcon }"
           class="favorite-icon"
         >
-          <!-- <img src=./images/pngs/icon_favorite.png" alt="" /> -->
+          <!-- <img src="./images/pngs/icon_favorite.png" alt="" /> -->
           <svg
             width="47"
             height="48"
@@ -61,19 +61,19 @@
       <v-card-actions class="card-actions">
         <div class="action-wrapper">
           <span class="action-icon-container"
-            ><img src=./images/pngs/icon_bed.png" alt=""
+            ><img src="./images/pngs/icon_bed.png" alt=""
           /></span>
           <span>3 beds</span>
         </div>
         <div class="action-wrapper">
           <span class="action-icon-container"
-            ><img src=./images/pngs/icon_bath.png" alt=""
+            ><img src="./images/pngs/icon_bath.png" alt=""
           /></span>
           <span>4 baths</span>
         </div>
         <div class="action-wrapper">
           <span class="action-icon-container"
-            ><img src=./images/pngs/icon_sqft.png" alt=""
+            ><img src="./images/pngs/icon_sqft.png" alt=""
           /></span>
           <span>2,850 sqft</span>
         </div>
@@ -231,7 +231,7 @@ export default {
   //     rgba(28, 33, 43, 0.7) 0%,
   //     rgba(28, 33, 43, 0.7) 20%
   //   ),
-  //   url(./images/pngs/hero-img.png");
+  //   url("./images/pngs/hero-img.png");
   background-size: cover;
 }
 </style>

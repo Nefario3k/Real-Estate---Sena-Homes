@@ -33,7 +33,7 @@ Users are able to:
 
 ### Screenshot
 
-![Desktop - Home](./images/pngs/screenshort/desktopH.png)
+![Desktop - Home](./static/images/pngs/screenshort/desktopH.png)
 ![Mobile - Home](./images/pngs/screenshort/mobileH.png)
 ![Desktop - Property](./images/pngs/screenshort/desktopP.png)
 ![Mobile - Property](./images/pngs/screenshort/mobileP.png)

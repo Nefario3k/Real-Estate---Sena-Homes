@@ -534,15 +534,15 @@ export default {
   color: #000;
 }
 .avatar.edit {
-  background-image: url("./images/pngs/smallProp03.png");
+  background-image: url("/images/pngs/smallProp03.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
 .avatar.edit.two {
-  background-image: url("./images/pngs/smallProp09.png");
+  background-image: url("/images/pngs/smallProp09.png");
 }
 .avatar.edit.three {
-  background-image: url("./images/pngs/smallProp06.png");
+  background-image: url("/images/pngs/smallProp06.png");
 }
 .v-avatar.v-list-item__avatar {
   width: 80px !important;

@@ -286,7 +286,7 @@ export default {
       rgba(28, 33, 43, 0.7) 0%,
       rgba(28, 33, 43, 0.7) 20%
     ),
-    url("./images/pngs/hero-img.png");
+    url("/images/pngs/hero-img.png");
   background-size: cover;
   background-position: 100%;
 }
@@ -297,7 +297,7 @@ export default {
       rgba(28, 33, 43, 0.7) 0%,
       rgba(28, 33, 43, 0.7) 20%
     ),
-    url("./images/pngs/hero-img-2.png");
+    url("/images/pngs/hero-img-2.png");
   background-size: cover;
   animation-delay: 4s;
 }
@@ -308,7 +308,7 @@ export default {
       rgba(28, 33, 43, 0.7) 0%,
       rgba(28, 33, 43, 0.7) 20%
     ),
-    url("./images/pngs/hero-img-3.png");
+    url("/images/pngs/hero-img-3.png");
   background-size: cover;
   animation-delay: 8s;
 }
@@ -424,8 +424,8 @@ export default {
 }
 
 #property_carousel_section {
-  background-image: url(./images/svg/geometry01.svg),
-    url(./images/svg/geometry02.svg);
+  background-image: url(/images/svg/geometry01.svg),
+    url(/images/svg/geometry02.svg);
   background-position: top right, bottom left;
   background-repeat: no-repeat;
   background-size: 25%;

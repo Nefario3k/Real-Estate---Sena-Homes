@@ -55,7 +55,7 @@
                       </div>
                       <!-- <img
                         :class="{ activeIcon: isActiveIndex == i }"
-                        src="./images/svg/circle-down.svg"
+                        src="/images/svg/circle-down.svg"
                         alt=""
                       /> -->
                     </template>
@@ -129,8 +129,8 @@ export default {
 #faq {
   min-height: 738px;
   background: #1c212b;
-  background-image: url(./images/svg/faq-vector-1.svg),
-    url(./images/svg/faq-vector-2.svg);
+  background-image: url(/images/svg/faq-vector-1.svg),
+    url(/images/svg/faq-vector-2.svg);
   background-position: top left, bottom right;
   background-repeat: no-repeat;
   padding-top: 10.5rem;
@@ -252,8 +252,8 @@ export default {
   #faq {
     height: 100%;
     padding: 3.5rem 0 7.5rem;
-    background-image: url(./images/svg/faq-vector-1-mobile.svg),
-      url(./images/svg/faq-vector-2-mobile.svg);
+    background-image: url(/images/svg/faq-vector-1-mobile.svg),
+      url(/images/svg/faq-vector-2-mobile.svg);
 
     .row {
       .col {

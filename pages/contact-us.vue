@@ -411,7 +411,7 @@ export default {
       rgba(28, 33, 43, 0.7) 0%,
       rgba(28, 33, 43, 0.7) 20%
     ),
-    url("./images/pngs/contactHeader.png");
+    url("/images/pngs/contactHeader.png");
   background-size: cover;
   width: 100%;
   min-height: 40rem;
@@ -449,7 +449,7 @@ export default {
       rgba(191, 144, 1, 0.1) 0%,
       rgba(191, 144, 1, 0.1) 20%
     ),
-    url("./images/pngs/mapStatic.png");
+    url("/images/pngs/mapStatic.png");
   background-size: cover;
   background-repeat: no-repeat;
   /* overflow: hidden; */
@@ -621,7 +621,7 @@ input:focus + .placeholder {
         rgba(191, 144, 1, 0.1) 0%,
         rgba(191, 144, 1, 0.1) 20%
       ),
-      url("./images/pngs/mapStatic.png");
+      url("/images/pngs/mapStatic.png");
     background-size: cover;
     background-repeat: no-repeat;
   }

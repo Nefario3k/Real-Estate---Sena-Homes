@@ -8,7 +8,7 @@
         <div class="col-12 col-lg-6 col-xl-6 left">
           <div class="img-frame">
             <div data-aos="fade-up-right" class="tilted-box">
-              <img src="./images/pngs/section-3.png" class="img" alt="" />
+              <img src="/images/pngs/section-3.png" class="img" alt="" />
             </div>
           </div>
         </div>
@@ -92,8 +92,8 @@ export default {};
 </script>
 <style lang="scss" scoped>
 .MSection {
-  background-image: url("./images/svg/box-of-circles.svg"),
-    url("./images/svg/box-of-circles-2.svg");
+  background-image: url("/images/svg/box-of-circles.svg"),
+    url("/images/svg/box-of-circles-2.svg");
   background-position: top left, bottom right;
   background-color: var(--section-bg);
 }

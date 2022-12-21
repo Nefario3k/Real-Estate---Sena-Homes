@@ -118,7 +118,7 @@
         >
           <img
             loading="lazy"
-            :src="`${media[0].src + items}.png`"
+            :src="`.${media[0].src + items}.png`"
             alt=""
           /> </v-tab
       ></v-tabs>

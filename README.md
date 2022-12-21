@@ -34,9 +34,8 @@ Users are able to:
   - Like Properties
 
 ### Screenshot
-<br />
-[To top](#overview)
-<br />
+
+- [To top](#overview)
 
 ![Desktop - Home](./static/images/pngs/screenshort/desktopH.png)
 ![Mobile - Home](./static/images/pngs/screenshort/mobileH.png)

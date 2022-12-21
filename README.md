@@ -19,8 +19,8 @@ This template design was created for real estate companies looking to better mar
 ## Overview
 
 ### Home Page
-<br />
-[Project Link](https://nefario3k.github.io/Real-Estate---Sena-Homes/)<br />
+
+- [Project](https://nefario3k.github.io/Real-Estate---Sena-Homes/)
 
 Users are able to:
 

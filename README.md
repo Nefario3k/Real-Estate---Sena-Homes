@@ -45,8 +45,9 @@ Users are able to:
 ![Mobile - Property](./static/images/pngs/screenshort/mobileP.png)
 
 ## My process
+
+-[To top](#overview)
 <br />
-[To top](#overview)<br />
 
 ### Built with
 
@@ -79,4 +80,4 @@ The project is made to be responsive on all viewport but one thing that i desire
 
 - Davies Okpeta - [@Nefario3k](https://elastic-beaver-f2084f.netlify.app)
 <br />
-[To top](#overview)<br />
+- [To top](#overview)<br />

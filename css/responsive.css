@@ -1,0 +1,357 @@
+@media (max-width: 1263px) {
+
+    /* home section  */
+    .hero_container header {
+        width: 75% !important;
+    }
+
+    .hero_container p.subtext {
+        width: 70% !important;
+    }
+
+    /* carosel styles  */
+    .show_sm_sc {
+        display: none !important;
+    }
+}
+
+@media (max-width: 1090px) {
+
+    /* topbar section  */
+    .rightNav .Btn,
+    .rightNav .accountDp,
+    .topBarNav nav {
+        display: none !important;
+    }
+
+    .topBarNav {
+        padding: 0 !important;
+    }
+
+    .logo img {
+        width: 11.6rem !important;
+        height: 100%;
+    }
+
+    .hamburger {
+        display: block !important;
+    }
+
+    .hero_container header {
+        font-size: 4.4rem !important;
+        line-height: 150% !important;
+        width: 65% !important;
+    }
+
+    .hero_container p.subtext {
+        width: 60% !important;
+        font-size: 2rem !important;
+    }
+
+}
+
+@media (min-width: 960px) and (max-width: 1263px) {
+
+    .featuresWrapper,
+    .contact_wrapper {
+        /* margin-top: 60px !important; */
+    }
+
+    .Btn span {
+        font-size: 1.4rem !important;
+    }
+}
+
+@media (min-width: 960px) {
+    span.hidden {
+        display: inline-block !important;
+    }
+
+    span.visible {
+        display: none !important;
+    }
+}
+
+/* col-md break point  */
+@media (max-width: 959px) {
+    .PropImgWrapper.lg iframe {
+        /* margin-bottom: -42px !important; */
+        height: 40.1rem !important;
+        aspect-ratio: 16 / 9;
+        object-fit: contain;
+    }
+
+    .footer_left .subtext {
+        display: none !important;
+    }
+
+    .footerLinkList .header,
+    .footerLinkList .footerLink a {
+        font-size: 1.4rem !important;
+    }
+
+    .logo .v-image__image.v-image__image--contain {
+        width: 11.6rem !important;
+        height: 100%;
+    }
+
+
+    .divider {
+        top: 53.7rem !important;
+    }
+
+    .footerRef {
+        flex-direction: column;
+        gap: 8px;
+        align-items: center;
+        text-align: center;
+        padding: 0 20px !important;
+        justify-content: center;
+    }
+
+    .aboutHeader header,
+    .contactHeader header {
+        font-size: 3.4rem !important;
+    }
+
+    .aboutHeader p,
+    .contactHeader p {
+        font-size: 1.4rem !important;
+        width: 80% !important;
+    }
+
+    /* property destails styles  */
+    .propertyActionWrapper {
+        justify-content: center !important;
+    }
+
+    div.col-12:has(.mobile) {
+        display: block !important;
+    }
+
+    div.col-12:has(.desktop) {
+        display: none !important;
+    }
+
+    .Btn.reviewPost.lg {
+        display: none !important;
+    }
+
+    .Btn.reviewPost.sm {
+        display: block !important;
+    }
+
+    .PropImgWrapper.srow {
+        padding-left: 12px !important;
+    }
+
+    .PropImgWrapper.srow>div:first-child {
+        margin-bottom: -18px;
+    }
+
+    .featuresWrapper {
+        margin-top: 24px !important;
+    }
+
+    .Btn.viewMore {
+        right: 9px !important;
+        /* bottom: 9px !important; */
+    }
+
+    .contact_wrapper {
+        padding: 12px 0 0 12px !important;
+    }
+
+    .col-12.m3x0.about,
+    .col-12.m3x0.about>.col-12,
+    .col-12.m3x0.about>.col-12 .col-12 {
+        padding-right: 0 !important;
+    }
+
+    div.col-12:has(.m3x10) {
+        padding-left: 12px !important;
+    }
+
+    .authCard.m3x10 {
+        margin-left: 0 !important;
+
+    }
+
+    .smallPropImgWrapper {
+        max-height: 100% !important;
+    }
+
+    /* about styles  */
+    #choice {
+        padding: 40px 0 !important;
+    }
+
+    .contentChoice p.goldText {
+        font-size: 1.6rem !important;
+    }
+
+    .contentChoice header {
+        font-size: 2.4rem !important;
+        margin-bottom: 32px !important;
+    }
+
+    .contentChoice p.content {
+        width: 95% !important;
+    }
+
+    /* propImgmodal style  */
+    .modal_content .img_large_container {
+        width: 95% !important;
+        background-size: contain !important;
+    }
+
+    /* ratings and reviews  */
+    .header header p {
+        font-size: 1.6rem !important;
+    }
+
+    .header header p {
+        font-size: 1.4rem !important;
+    }
+
+    p.review {
+        font-size: 1.6rem !important;
+    }
+
+}
+
+@media (max-width: 900px) {
+
+    .hero_container header {
+        font-size: 2.4rem !important;
+        width: 100% !important;
+        margin-top: 90px;
+    }
+
+    .hero_container p.subtext {
+        width: 40% !important;
+        font-size: 1.6rem !important;
+    }
+
+
+}
+
+@media (max-width: 765px) {
+
+    /* property destails styles  */
+    .header_left {
+        font-size: 1.8rem !important;
+    }
+
+    .header_left p.header_subtext {
+        font-size: 1.6rem !important;
+    }
+
+    .propertyActionWrapper {
+        gap: 9px !important;
+    }
+
+
+    .Btn {
+        height: 3.6rem !important;
+        padding-left: 6px !important;
+        padding-right: 6px !important;
+    }
+
+    .Btn.ctaBtn {
+        height: 5.6rem !important;
+    }
+
+    .Btn span {
+        font-size: 1rem !important;
+    }
+
+    .Btn.ctaBtn span {
+        font-size: 1.7rem !important;
+    }
+
+    .contact_wrapper a .Btn.contact {
+        padding-left: 12px !important;
+        padding-right: 12px !important;
+    }
+
+    .contact_wrapper a .Btn.contact span {
+        font-size: 1.2rem !important;
+    }
+
+    .contact_wrapper a .Btn.contact svg {
+        width: 24px;
+        height: 24px;
+    }
+
+    .m3x0 header {
+        font-size: 1.8rem !important;
+    }
+
+    .m3x0 span.subtext,
+    .m3x0 span.propData {
+        font-size: 1.6rem !important;
+    }
+
+    .authCard.m3x10 span.subtext {
+        font-size: 1.6rem !important;
+    }
+
+    .modal_content header.text-left {
+        font-size: 2rem !important;
+    }
+
+    p.ratings {
+        font-size: 1.6rem !important;
+    }
+
+    .m3x0 span.subtext.d-block.reviewers {
+        width: 70%;
+        margin: 0 auto 5px;
+    }
+
+    p.cta {
+        font-size: 1.2rem !important;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    /* carosel styles  */
+    .show_md_sc {
+        display: none !important;
+    }
+
+    .slide-header {
+        padding-left: 0 !important;
+    }
+
+    .slide-header span {
+        font-size: 1.8rem !important;
+    }
+
+}
+
+/* md to sm  */
+@media (min-width: 600px) and (max-width: 959px) {
+    .divider {
+        top: 37rem !important;
+    }
+}
+
+@media (max-width: 500px) {
+    .hero_container p.subtext {
+        width: 100% !important;
+    }
+
+    /* about styles  */
+    #choice {
+        background: linear-gradient(91.33deg, rgba(28, 33, 43, 0.83) 48.29%, rgba(28, 33, 43, 0) 132.23%),
+            url("/images/pngs/whySena.png") !important;
+    }
+
+    .contentChoice header {
+        width: 70% !important;
+        margin: 0 auto 32px !important;
+    }
+
+}

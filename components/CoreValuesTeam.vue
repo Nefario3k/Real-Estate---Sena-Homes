@@ -30,6 +30,7 @@
             class="core_wrapper"
           >
             <v-tab
+              :ripple="false"
               :class="{ active: tabz == 0 }"
               class="
                 core_items
@@ -44,6 +45,7 @@
               <p class="font-weight-bold">Accountability</p>
             </v-tab>
             <v-tab
+              :ripple="false"
               :class="{ active: tabz == 1 }"
               class="
                 core_items
@@ -58,6 +60,7 @@
               <p class="font-weight-bold">Transparency</p>
             </v-tab>
             <v-tab
+              :ripple="false"
               :class="{ active: tabz == 2 }"
               class="
                 core_items
@@ -72,6 +75,7 @@
               <p class="font-weight-bold">Passion</p>
             </v-tab>
             <v-tab
+              :ripple="false"
               :class="{ active: tabz == 3 }"
               class="
                 core_items
@@ -86,6 +90,7 @@
               <p class="font-weight-bold">Professionalism</p>
             </v-tab>
             <v-tab
+              :ripple="false"
               :class="{ active: tabz == 4 }"
               class="
                 core_items
@@ -100,6 +105,7 @@
               <p class="font-weight-bold">Accountability</p>
             </v-tab>
             <v-tab
+              :ripple="false"
               :class="{ active: tabz == 5 }"
               class="
                 core_items
@@ -114,6 +120,7 @@
               <p class="font-weight-bold">Transparency</p>
             </v-tab>
             <v-tab
+              :ripple="false"
               :class="{ active: tabz == 6 }"
               class="
                 core_items
@@ -595,6 +602,9 @@ h4 {
       }
     }
   }
+}
+.v-tab::before {
+  display: none !important;
 }
 
 // => 'sm': '640px',

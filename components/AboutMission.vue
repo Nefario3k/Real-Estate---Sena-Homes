@@ -47,6 +47,7 @@ export default {};
   align-items: center;
   margin-top: 10.9rem;
   padding-bottom: 12.1rem;
+  overflow: hidden;
 
   div {
     max-width: 544px;
